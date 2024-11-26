@@ -1,0 +1,51 @@
+
+
+.download-section{
+    background-image: url('/src/assets/Rectangle\ 47.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 8.125rem 0;
+}
+
+.download-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.download-heading{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--white-color);
+}
+
+.download-para{
+    color: var(--white-color);
+    font-style: 1.5rem;
+    font-weight: medium;
+}
+
+.download-button{
+    color: var(--white-color);
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.download-playstore{
+    background-color: transparent;
+    border: 1px solid var(--white-color);
+}
+
+.download-appstore{
+    background-color: var(--primary-color);
+    border: none;
+}
+
+@media(max-width:425px){
+    .download-section{
+        background-image: none;
+        background-color: var(--download-bg-color);
+    }
+}

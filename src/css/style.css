@@ -1,0 +1,45 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #FA4A0C;  
+  --seconday-color: #252B42;
+  --white-color: #fff;
+  --black: #000000;
+  --hero-bg-color: #FAFAFA;
+  --hero-h4-responsive-color: #737373;
+  --hero-h4-color: #F6F6F6;
+  --download-bg-color: #252B42;
+  --footer-para-color: #5C5C5C;
+  --mobile-nav-bg: #F5F4FF;
+  --line-bg: #E4E4E4;
+
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+.common-container{
+  width: min(140ch, 100% - 2.5rem);
+  margin: 0 auto;
+}
+
+.common-h3{
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
