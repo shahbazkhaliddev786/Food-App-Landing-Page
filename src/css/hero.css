@@ -4,8 +4,10 @@
     background-position: center;
     background-repeat: no-repeat;
     object-fit: cover;
-    height: 100%;
-    width: 100%;
+    /* height: 100%; */
+    /* width: 100%; */
+    background-color: aquamarine;
+    padding: 0rem;
 }
 
 .hero-wrapper{
@@ -31,7 +33,7 @@
 }
 
 .hero-h1{
-    font-size: clamp(2.25rem, 3.625rem, 3.625rem);
+    font-size: 3.625rem;
     font-weight: bold;
     color: var(--white-color);
     text-align: center;
@@ -110,6 +112,6 @@
 
 @media(max-width: 320px){
     .hero{
-        min-height: 48.6875rem;
+        /* min-height: 48.6875rem; */
     }
 }
