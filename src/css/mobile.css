@@ -67,7 +67,7 @@
 @media(max-width: 320px){
     .mobile-wrapper img{
         width: 15rem;
-        margin-top: -12rem;
+        margin-top: -10rem;
         margin-right: 2rem;
     }
 
