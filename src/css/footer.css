@@ -14,6 +14,7 @@
     color: var(--footer-para-color);
     font-style: 12px;
     font-weight: bold;
+    font-family: 'Roboto', sans-serif;
 }
 
 @media(max-width:425px){

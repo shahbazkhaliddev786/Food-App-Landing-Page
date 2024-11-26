@@ -1,16 +1,16 @@
 
 .hero{
-    background-image: url('/src/assets/Rectangle\ 48.png');
+    background-image: url('/src/assets/herobg.png');
     background-position: center;
     background-repeat: no-repeat;
     object-fit: cover;
-    min-height: 38.6875rem;
     height: 100%;
     width: 100%;
 }
 
 .hero-wrapper{
     padding-top: 4.5625rem;
+    padding-bottom: 9.125rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,6 +20,7 @@
 
 .hero-h3{
     color: var(--white-color);
+    font-family: 'Montserrat', sans-serif;
 }
 
 .hero-headings{
@@ -34,6 +35,7 @@
     font-weight: bold;
     color: var(--white-color);
     text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 .hero-headings h4{
@@ -41,6 +43,7 @@
     font-weight: medium;
     color: var(--hero-h4-color);
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .common-button{
@@ -49,18 +52,22 @@
     border-radius: 1.875rem;
     font-size: 1.5rem;
     max-width: 14.625rem;
+    font-family: 'Montserrat', sans-serif;
+    white-space: nowrap;
 }
 
 .appstore{
     background-color: transparent;
     border: 1px solid var(--white-color);
     cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .playstore{
     background-color: var(--primary-color);
     border: none;
     cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
 }
 
 @media(max-width: 768px){

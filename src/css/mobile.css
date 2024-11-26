@@ -15,7 +15,7 @@
 .mobile-wrapper img{
     width: 34.25rem;
     min-height: 40rem;
-    margin-top: -18rem;
+    margin-top: -15.5rem;
     margin-right: 11rem;
 }
 
@@ -67,7 +67,7 @@
 @media(max-width: 320px){
     .mobile-wrapper img{
         width: 15rem;
-        margin-top: -10rem;
+        margin-top: -1rem;
         margin-right: 2rem;
     }
 

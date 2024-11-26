@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+/* 
+1. font - solved
+2. on mobile - when a link clicked navbar should close
+3. fix bg images
+*/
+
 :root {
   --primary-color: #FA4A0C;  
   --seconday-color: #252B42;
@@ -17,12 +23,15 @@
   --mobile-nav-bg: #F5F4FF;
   --line-bg: #E4E4E4;
 
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
 }
 
 html{
   scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
 }
 
 a {
