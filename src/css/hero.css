@@ -82,7 +82,7 @@
     .hero{
         background-image: none;
         background-color: var(--hero-bg-color);
-        padding-top: 6rem;
+        height: 100%;
     }
 
     .hero-headings{
@@ -116,8 +116,3 @@
     }
 }
 
-@media(max-width: 375px){
-    .hero{
-        padding: 23rem 0;
-    }
-}
