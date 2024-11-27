@@ -4,11 +4,6 @@
   box-sizing: border-box;
 }
 
-/* 
-1. Extra spacing on top of hero
-2. on mobile - when a link clicked navbar should close
-*/
-
 :root {
   --primary-color: #FA4A0C;  
   --seconday-color: #252B42;
@@ -31,6 +26,7 @@ html{
 
 body {
   font-family: 'Montserrat', sans-serif;
+  height: 100%;
 }
 
 a {
